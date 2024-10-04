@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar > a {
+    position: fixed;
+    right: 45px;
+    top: 30px;
+    width: 100px;
+    height: 35px;
+    background-color: #9D45CC;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding-top: 12px;
+    letter-spacing: 1.2px;
+    border-radius: 3px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar > a:hover {
+    background-color: #811eb7;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
